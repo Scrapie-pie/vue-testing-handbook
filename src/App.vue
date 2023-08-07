@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <Greeting />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import Greeting from "@/components/Greeting";
 
 export default {
   components: {
-    BaseComponent
+    Greeting
   }
 }
 </script>
