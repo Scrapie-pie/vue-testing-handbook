@@ -1,13 +1,12 @@
 <template>
-  <BaseComponent />
+  <NumberRenderer />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
-
+import NumberRenderer from "@/components/NumberRenderer";
 export default {
   components: {
-    BaseComponent
+    NumberRenderer
   }
 }
 </script>
