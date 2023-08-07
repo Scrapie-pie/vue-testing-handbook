@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <SubmitButton msg="text" />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import SubmitButton from "@/components/SubmitButton";
 
 export default {
   components: {
-    BaseComponent
+    SubmitButton,
   }
 }
 </script>
