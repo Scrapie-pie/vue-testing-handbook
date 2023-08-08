@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <ComponentWithGetters />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import ComponentWithGetters from "@/components/ComponentWithVuex";
 
 export default {
   components: {
-    BaseComponent
+    ComponentWithGetters
   }
 }
 </script>
