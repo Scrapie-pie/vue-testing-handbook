@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <FormSubmitter />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import FormSubmitter from "@/components/FormSubmitter";
 
 export default {
   components: {
-    BaseComponent
+    FormSubmitter
   }
 }
 </script>
