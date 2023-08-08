@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <ParentWithAPICallChild />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import ParentWithAPICallChild from "@/components/ParentWithAPICallChild";
 
 export default {
   components: {
-    BaseComponent
+    ParentWithAPICallChild
   }
 }
 </script>

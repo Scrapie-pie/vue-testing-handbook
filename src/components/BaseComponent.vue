@@ -1,3 +1,0 @@
-<template>
-  Base component
-</template>
