@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import BaseComponent from "@/components/ComponentWithButtons";
 
 export default {
   components: {
