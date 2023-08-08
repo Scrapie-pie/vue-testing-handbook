@@ -2,12 +2,20 @@ import { shallowMount, mount } from '@vue/test-utils';
 import ParentWithAPICallChild from '../../src/components/ParentWithAPICallChild.vue';
 import ComponentWithAsyncCall from '../../src/components/ComponentWithAsyncCall.vue';
 
+jest.mock("axios", () => ({
+  get: () => {
+    return new Promise((resolve) => {
+      resolve(true)
+    })
+  }
+}))
+
 describe('ParentWithAPICallChild.vue', () => {
   it('renders with mount and does initialize API call', () => {
     const wrapper = mount(ParentWithAPICallChild, {
       global: {
         stubs: {
-          ComponentWithAsyncCall: true,
+          ComponentWithAsyncCall: "<div class='stub'></div>",
         },
       },
     });
