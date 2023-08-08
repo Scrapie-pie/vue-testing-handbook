@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <Parent />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import Parent from "@/components/Parent";
 
 export default {
   components: {
-    BaseComponent
+    Parent
   }
 }
 </script>
