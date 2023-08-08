@@ -1,13 +1,16 @@
 <template>
-  <BaseComponent />
+  <div id="app">
+    asdf
+    <router-view />
+  </div>
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
 
 export default {
-  components: {
-    BaseComponent
-  }
+  name: 'app'
 }
 </script>
+
+<style>
+</style>
