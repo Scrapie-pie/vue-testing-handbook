@@ -1,13 +1,13 @@
 <template>
-  <BaseComponent />
+  <CompositionApi message="Тестируем composition API" />
 </template>
 
 <script>
-import BaseComponent from "@/components/BaseComponent";
+import CompositionApi from "@/components/CompositionApi";
 
 export default {
   components: {
-    BaseComponent
+    CompositionApi
   }
 }
 </script>
